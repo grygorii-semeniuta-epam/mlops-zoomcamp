@@ -1,0 +1,14 @@
+artifact_uri: file:///home/greg/mlops/mlops-homework/02-experiment-tracking/homework/mlruns/0/dff389e32e334dbe9fcf8e5d428bd628/artifacts
+end_time: 1756738412457
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dff389e32e334dbe9fcf8e5d428bd628
+run_name: intelligent-foal-77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756738392330
+status: 4
+tags: []
+user_id: greg

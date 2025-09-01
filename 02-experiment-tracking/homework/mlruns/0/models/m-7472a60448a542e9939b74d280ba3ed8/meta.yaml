@@ -1,0 +1,10 @@
+artifact_location: file:///home/greg/mlops/mlops-homework/02-experiment-tracking/homework/mlruns/0/models/m-7472a60448a542e9939b74d280ba3ed8/artifacts
+creation_timestamp: 1756738406067
+experiment_id: '0'
+last_updated_timestamp: 1756738408284
+model_id: m-7472a60448a542e9939b74d280ba3ed8
+model_type: null
+name: model
+source_run_id: dff389e32e334dbe9fcf8e5d428bd628
+status: 2
+status_message: null
