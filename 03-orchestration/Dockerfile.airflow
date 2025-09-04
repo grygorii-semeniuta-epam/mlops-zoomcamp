@@ -1,0 +1,7 @@
+FROM apache/airflow:2.11.0-python3.12
+
+RUN pip install --no-cache-dir mlflow pandas pyarrow scikit-learn xgboost
+
+RUN mkdir -p ${AIRFLOW_HOME}/dags
+
+EXPOSE 8080
