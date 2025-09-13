@@ -62,7 +62,7 @@ dependencies we use for the virtual env.
 
 What's the first hash for the Scikit-Learn dependency?
 
-### Answer: sha256:08ef968f6b72033c16c479c966bf37ccd49b06ea91b765e1cc27afefe723920b
+### Answer: sha256:057b991ac64b3e75c9c04b5f9395eaf19a6179244c089afdebaad98264bff37c
 
 
 ## Q5. Parametrize the script

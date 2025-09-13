@@ -1,13 +1,16 @@
 FROM agrigorev/zoomcamp-model:mlops-2024-3.10.13-slim
 
-RUN pip install -U pip
-RUN pip install pipenv 
+RUN apt-get update && apt-get upgrade -y
 
 WORKDIR /app
 
-COPY [ "Pipfile", "Pipfile.lock", "./" ]
+COPY ["requirements.txt", "./"]
+RUN pip install --upgrade pip
+RUN pip install -r requirements.txt
 
-RUN pipenv install --system --deploy
+# COPY [ "Pipfile", "Pipfile.lock", "./" ]
+
+# RUN pipenv install --system --deploy
 
 COPY [ "starter.py", "./" ]
 
